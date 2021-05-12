@@ -5,12 +5,11 @@ root = Tk()
 root.title("python & pstgresSQL")
 
 def sav_new_student(name, age, address):
-    conn = psycopg2.connect(dbname="postgres", 
-        user="postgres", 
-        password="password", 
-        host="localhost", 
-        port="5432"
-    )
+    conn = psycopg2.connect(dbname="d55j547n4hvhpg", 
+        user="ctyoycwrtksvbw", 
+        password="51d77bad7009efc8478b86b0a88ec7eab7f47713eb7424a45e06ef6a0a98580a", 
+        host="ec2-54-166-167-192.compute-1.amazonaws.com", 
+        port="5432")
 
     cursor = conn.cursor()
     query = '''INSERT INTO students(name, age, address) VALUES(%s, %s, %s)'''
@@ -22,10 +21,10 @@ def sav_new_student(name, age, address):
     display_student()
 
 def display_student():
-    conn = psycopg2.connect(dbname="postgres", 
-        user="postgres", 
-        password="password", 
-        host="localhost", 
+    conn = psycopg2.connect(dbname="d55j547n4hvhpg", 
+        user="ctyoycwrtksvbw", 
+        password="51d77bad7009efc8478b86b0a88ec7eab7f47713eb7424a45e06ef6a0a98580a", 
+        host="ec2-54-166-167-192.compute-1.amazonaws.com", 
         port="5432"
     )
 
@@ -45,10 +44,10 @@ def display_student():
     conn.close()
 
 def search(id):
-    conn = psycopg2.connect(dbname="postgres", 
-        user="postgres", 
-        password="password", 
-        host="localhost", 
+    conn = psycopg2.connect(dbname="d55j547n4hvhpg", 
+        user="ctyoycwrtksvbw", 
+        password="51d77bad7009efc8478b86b0a88ec7eab7f47713eb7424a45e06ef6a0a98580a", 
+        host="ec2-54-166-167-192.compute-1.amazonaws.com", 
         port="5432"
     )
 
