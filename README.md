@@ -10,7 +10,7 @@
  </ol>
  
  <h2 id="uno">Aplicacion de escritorio con Python y PostgreSQL</h2>
-La aplicacion desarrollada 
+La aplicacion desarrollada consiste en registrar y visualizar los datos de personas a una base de datos que para este proyecto se implemento en el gestor de PostgreSQL
 
 
  
