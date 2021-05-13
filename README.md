@@ -37,6 +37,6 @@ La aplicacion desarrollada
  
  
 
-Para el desarrollo de esta aplicacion de utilizo un modulo llamado Tkinter, el cual proporciona algunos Widgets para crear la interfaz grafica de usuario.
+
 
 
